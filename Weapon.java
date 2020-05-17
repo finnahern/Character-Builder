@@ -1,6 +1,7 @@
 public class Weapon{
 	
 	private int damage;
+	private String type;
 	
 	//Default Constructor
 	public Weapon(){
@@ -8,9 +9,10 @@ public class Weapon{
 	}	
 	
 	//User Defined Constructor
-	public Weapon(int initialDamage){
+	public Weapon(int initialDamage, String weaponType){
 	
 		this.damage = initialDamage;
+		this.type = weaponType;
 	}
 	
 	//Getter
@@ -23,5 +25,11 @@ public class Weapon{
 	public void setDamage(int initialDamage){
 	
 		this.damage = initialDamage;
+	}
+
+	//Type Getter
+	public String getType(){
+		
+		return this.type;
 	}	
 }

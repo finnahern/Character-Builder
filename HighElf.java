@@ -1,10 +1,11 @@
 public class HighElf extends Biped{
 	
 	//Constructor
-	public HighElf(String name){
+	public HighElf(String name, Weapon weapon){
 		
-		super(name);
-	}
+		super(name, weapon);
+		
+	}	
 	
 	//Speak method
 	public void speak(){

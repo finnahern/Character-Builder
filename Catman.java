@@ -1,9 +1,9 @@
 public class Catman extends Quadruped{
 	
 	//Constructor
-	public Catman(String name){
+	public Catman(String name, Weapon weapon){
 		
-		super(name);
+		super(name, weapon);
 	}
 	
 	//Speak method

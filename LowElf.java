@@ -1,9 +1,9 @@
 public class LowElf extends Biped{
 	
 	//Constructor
-	public LowElf(String name){
+	public LowElf(String name, Weapon weapon){
 		
-		super(name);
+		super(name, weapon);
 	}
 	
 	//Speak method

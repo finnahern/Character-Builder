@@ -2,6 +2,7 @@ public class Character{
 	
 	private String name;
 	private int speed;
+	private Weapon weapon;
 	
 	//Default Constructor
 	public Character(){
@@ -20,11 +21,12 @@ public class Character{
 		this.speed = speed;
 	}
 	
-	//User Defined Constructor for Name & Speed
-	public Character(String name, int speed){
+	//User Defined Constructor for Name, Speed & Weapon
+	public Character(String name, int speed, Weapon weapon){
 	
 		this.name = name;
 		this.speed = speed;
+		this.weapon = weapon;
 	}
 	
 	//Getter/Setter for Name
@@ -44,11 +46,22 @@ public class Character{
 		return this.speed;
 	}
 	
-	//Setter
 	public void setSpeed(int speed){
 	
 		this.speed = speed;
 	}
+	
+	//Getter/Setter for Weapon
+	public Weapon getWeapon(){
+		
+		return this.weapon;
+	
+	}
+	
+	public void setWeapon(Weapon weapon){
+	
+		this.weapon = weapon;
+	}	
 
 	//Move 
 	public void move(){
@@ -67,4 +80,11 @@ public class Character{
 		
 		System.out.println(name + " speaks");	
 	}	
+	
+	//Hit
+	public void hit(){
+		
+		System.out.println(name + " attacks with their " + weapon.getType() + ". It deals " + weapon.getDamage() + " damage");
+	}	
+
 }

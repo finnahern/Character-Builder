@@ -1,9 +1,9 @@
 public class Quadruped extends Character{
 	
 	//User Defined Constructor 
-	public Quadruped(String name){
+	public Quadruped(String name, Weapon weapon){
 	
-		super(name, 4);
+		super(name, 4, weapon);
 	}
 	
 	//Eat method

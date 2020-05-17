@@ -1,9 +1,9 @@
 public class Human extends Biped{
 	
 	//Constructor
-	public Human(String name){
+	public Human(String name, Weapon weapon){
 		
-		super(name);
+		super(name, weapon);
 	}
 
 	//Speak method

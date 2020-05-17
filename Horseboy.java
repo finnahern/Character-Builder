@@ -1,9 +1,9 @@
 public class Horseboy extends Quadruped{
 	
 	//Constructor
-	public Horseboy(String name){
+	public Horseboy(String name, Weapon weapon){
 		
-		super(name);
+		super(name, weapon);
 	}
 	
 	//Speak method

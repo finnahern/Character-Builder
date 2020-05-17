@@ -1,9 +1,9 @@
 public class Dogman extends Quadruped{
 	
 	//Constructor
-	public Dogman(String name){
+	public Dogman(String name, Weapon weapon){
 		
-		super(name);
+		super(name, weapon);
 	}
 	
 	//Speak method

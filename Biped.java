@@ -1,9 +1,9 @@
 public class Biped extends Character{
 	
 	//User Defined Constructor 
-	public Biped(String name){
+	public Biped(String name, Weapon weapon){
 	
-		super(name, 2);
+		super(name, 2, weapon);
 	}
 	
 	//Eat method

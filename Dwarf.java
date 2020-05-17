@@ -1,9 +1,9 @@
 public class Dwarf extends Biped{
 	
 	//Constructor
-	public Dwarf(String name){
+	public Dwarf(String name, Weapon weapon){
 		
-		super(name);
+		super(name, weapon);
 	}
 	
 	//Speak method

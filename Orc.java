@@ -1,9 +1,9 @@
 public class Orc extends Biped{
 	
 	//Constructor
-	public Orc(String name){
+	public Orc(String name, Weapon weapon){
 		
-		super(name);
+		super(name, weapon);
 	}
 	
 	//Speak method
